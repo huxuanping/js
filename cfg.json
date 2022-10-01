@@ -4,12 +4,16 @@
       "key": "77-JS",
       "name": "77[JS]",
       "type": 3,
+      "searchable":1,
+      "quickSearch":1,
       "api": "https://huxuanping.github.io/js/kunyu77.js"
     },
 {
       "key": "555-JS-DR",
       "name": "555",
       "type": 3,
+  "searchable":1,
+      "quickSearch":1,
       "api": "https://huxuanping.github.io/js/dr.js?rule=dr/酷云77.js"
     },
     {
