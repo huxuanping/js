@@ -1,6 +1,6 @@
 var rule = {
     title:'drpy',
-    host:'https://m.douban.com/home_guide',
+    host:'https://frodo.douban.com',
     homeUrl:'',
     searchUrl:'',
     searchable:1,
@@ -10,7 +10,7 @@ var rule = {
     url:'/?pg=fypage&class=fyclass&douban=',
     filter_url:'fl={{fl}}',
     headers:{
-            "Host": "https://m.douban.com/home_guide",
+            "Host": "frodo.douban.com",
             "Connection": "Keep-Alive",
             "Referer": "https://servicewechat.com/wx2f9b06c1de1ccfca/84/page-frame.html",
             "content-type": "application/json",
