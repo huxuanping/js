@@ -1,6 +1,6 @@
 var rule={
     title:'广长资源',
-    host:'https://www.czspp.com',
+    host:'https://www.c-zzy.com',
     // homeUrl:'/',
     url:'/fyclass/page/fypage',
     searchUrl:'/xssearch?q=**',
