@@ -2,7 +2,7 @@ var rule = {
     title:'素白白',
     host:'https://www.subaibaiys.com',
     url:'/fyclass/page/fypage',
-    searchUrl:'/grabble?q=**',
+    searchUrl:'/search?q=**',
     searchable:2,//是否启用全局搜索,
     quickSearch:0,//是否启用快速搜索,
     filterable:0,//是否启用分类筛选,
