@@ -2,7 +2,7 @@ var rule = {
     title:'乐猪TV',
     host:'http://www.lezhutv.com',
     // homeUrl:'/',
-    url:'/type/fyclassfyfilter.html',
+    url:'/list/fyclassfyfilter.html',
     filterable:1,//是否启用分类筛选,
     filter_url:'_fypage_desc_{{fl.by}}_0_0___',
     filter: {"1":[{"key":"by","name":"排序","value":[{"n":"全部","v":"time"},{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}],"2":[{"key":"by","name":"排序","value":[{"n":"全部","v":"time"},{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}],"4":[{"key":"by","name":"排序","value":[{"n":"全部","v":"time"},{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}],"3":[{"key":"by","name":"排序","value":[{"n":"全部","v":"time"},{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}],"14":[{"key":"by","name":"排序","value":[{"n":"全部","v":"time"},{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}],"15":[{"key":"by","name":"排序","value":[{"n":"全部","v":"time"},{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}]},
