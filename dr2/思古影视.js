@@ -23,7 +23,7 @@ var rule={
         ct:{by:'time'},
         se:{by:'time'}
     },
-    searchUrl:'/search/**----------fypage---.html;post',
+    searchUrl:'/search/**----------fypage---.html',
     class_parse: '.myui-header__menu li.dropdown-hover:gt(0);a&&Text;a&&href;.*/(.*?).html',
     lazy:'js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);var url=html.url;if(html.encrypt=="1"){url=unescape(url)}else if(html.encrypt=="2"){url=unescape(base64Decode(url))}if(/m3u8|mp4/.test(url)){input=url}else if(/bilibili/.test(url)){input={jx:0,url:"https://jx.jsonplayer.com/player/?url="+url,parse:1,header:JSON.stringify({"user-agent":"Mozilla/5.0"})}}else{input={jx:0,url:"https://jx.m3u8.tv/jiexi/?url="+url,parse:1,header:JSON.stringify({"user-agent":"Mozilla/5.0"})}}',
     推荐: 'ul.myui-vodlist.clearfix:gt(0);li;a&&title;a&&data-original;.pic-text&&Text;a&&href',
