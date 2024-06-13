@@ -38,6 +38,7 @@ var rule = {
     `,
     图片来源: '@Referer=https://www.7xiady.cc/',
     searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+	detailUrl:'/detil/fyid/',
 	搜索:'json:list;name;pic;;id',
     //搜索: 'ul.stui-vodlist&&li;a&&title;.lazyload&&data-original;.pic-text&&Text;a&&href',
 }
