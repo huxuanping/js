@@ -76,5 +76,6 @@ var rule = {
 	},
 	//搜索: 'ul.myui-vodlist__media li;*;*;*;*',
 	searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+	detailUrl:'/vod/detail/id/fyid.html',
 	搜索:'json:list;name;pic;;id',
 }
