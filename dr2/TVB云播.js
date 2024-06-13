@@ -28,7 +28,38 @@ var rule = {
 	quickSearch: 0,//是否启用快速搜索,
 	filterable: 0,//是否启用分类筛选,
 	play_parse: true,
-	lazy: '',
+	lazy: $js.toString(() => {
+        let html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1])
+        let url = html.url
+        let from = html.from
+        if (html.encrypt == '1') {
+            url = unescape(url);
+        } else if (html.encrypt == '2') {
+            url = unescape(base64Decode(url));
+        }
+        print('切片地址:' + url);
+        var jx = request(HOST + "/static/player/" + from + ".js").match(/ src="(.*?)'/)[1];
+        html = request(jx + url, {
+            headers: { 'Referer': HOST }
+        });
+        let src = pdfh(html, "#WANG&&src")
+        log(src)
+        if (src != "") {
+            html = request(src, {
+                headers: { 'Referer': jx + url }
+            });
+        }
+        try {
+            url = JSON.parse(html).url;
+        } catch (e) {
+            log(e.message)
+        }
+        if (/m3u8|mp4/.test(url)) {
+            input = url;
+        } else {
+            input
+        }
+    }),
 	limit: 6,
 	// 推荐:'ul.myui-vodlist;ul li;*;*;*;*',
 	推荐: 'ul.myui-vodlist;li;*;*;*;*',
