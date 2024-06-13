@@ -3,16 +3,16 @@
 			"key": "drpy_js_豆瓣",
 			"name": "豆瓣",
 			"type": 3,
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/豆瓣.js"
+			"api": ".lib/drpy2.min.js",
+			"ext": "./dr2/豆瓣.js"
 		},
 		{
 			"key": "drpy_js_荐片",
 			"name": "荐片",
 			"type": 3,
 			"playerType": 1,
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/荐片.js"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./dr2/荐片.js"
 		},
 		{
 			"key": "Bdys_spider",
@@ -28,19 +28,19 @@
 			"name": "两个BT",
 			"type": 3,
 			"playerType": 1,
-			//"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/hipy/两个BT.py",
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/hipy/bt.py",
+			//"api": "./hipy/两个BT.py",
+			"api": "./hipy/bt.py",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1
-			//"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/hipy/两个BT.json"
+			//"ext": "./hipy/两个BT.json"
 		},
 		{
 			"key": "hipy_t3_在线",
 			"name": "在线",
 			"type": 3,
 			"playerType": 1,
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/hipy/在线之家.py",
+			"api": "./hipy/在线之家.py",
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1
@@ -52,7 +52,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"api": "./lib/drpy2.min.js",
-			"ext": "./js/子子影视.js"
+			"ext": "./dr2/子子影视.js"
 		},
 		{
 			"key": "csp_77yyy",
@@ -68,24 +68,24 @@
 			"name": "视觉",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
-			"ext": "./js/新视觉影视.js"
+			"ext": "./dr2/新视觉影视.js"
 		},
 		{
 			"key": "drpy_南瓜影视",
 			"name": "南瓜",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
-			"ext": "./js/南瓜影视.js"
+			"ext": "./dr2/南瓜影视.js"
 		},
 		{
 			"key": "dr_FreeOK",
 			"name": "FreeOK",
 			"type": 3,
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/lib/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/FreeOK.js"
+			"ext": "./dr2/FreeOK.js"
 		},
 		{
 			"key": "csp_kuaikan",
@@ -105,18 +105,18 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./js/胖虎.js"
+			"ext": "./dr2/胖虎.js"
 		},
 
 		{
 			"key": "dr_鸭奈飞",
 			"name": "奈飞",
 			"type": 3,
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/lib/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/鸭奈飞.js"
+			"ext": "./dr2/鸭奈飞.js"
 		},
 		{
 			"key": "YQK_spider",
@@ -128,7 +128,7 @@
 			"quickSearch": 1,
 			"searchable": 1,
 			"ext": "https://api-aws.11ty.top",
-			"jar": "https://gitlab.com/huxuanping/hkx/-/raw/main/qiaoji"
+			"jar": "./qiaoji"
 		},
 		{
 			"key": "csp_xBPQ_玖八",
@@ -138,7 +138,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "https://gitlab.com/huxuanping/hkx/-/raw/main/hz",
+			"jar": "./hz",
 			"ext": "./json/98影视.json"
 		},
 		{
@@ -150,7 +150,7 @@
 			//"playerType":2,
 			"quickSearch": 1,
 			"searchable": 1,
-			"jar": "https://gitlab.com/huxuanping/hkx/-/raw/main/qiaoji"
+			"jar": "./qiaoji"
 			//"ext":"3bff500c8b1e06c052a1b0f1f7a62b45"
 		},
 		{
@@ -161,42 +161,42 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./js/秋霞.js"
+			"ext": "./dr2/秋霞.js"
 		},
 
 		{
 			"key": "dr_tvb",
 			"name": "TVB",
 			"type": 3,
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/lib/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/TVB云播.js"
+			"ext": "./dr2/TVB云播.js"
 		},
 		{
 			"key": "dr_cokem",
 			"name": "酷米",
 			"type": 3,
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/lib/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/cokemv.js"
+			"ext": "./dr2/cokemv.js"
 		},
 		{
 			"key": "drpy_js_厂长",
 			"name": "厂长",
 			"type": 3,
-			"api": "https://huxuanping.github.io/js/lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/厂长资源.js"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./dr2/厂长资源.js"
 		},
 		{
 			"key": "drpy_js_骚火",
 			"name": "骚火",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/骚火.js"
+			"ext": "./dr2/骚火.js"
 		},
 		{
 			"key": "dr_私人",
@@ -206,14 +206,14 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./js/私人影院.js"
+			"ext": "./dr2/私人影院.js"
 		},
 		{
 			"key": "drpy_js_量子",
 			"name": "量子",
 			"type": 3,
-			"api": "https://huxuanping.github.io/js/lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/量子影视.js"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./dr2/量子影视.js"
 		},
 		{
 			"key": "csp_xpath_sigu",
@@ -221,7 +221,7 @@
 			"type": 3,
 			//"playerType":2,
 			"api": "./lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/思古影视.js"
+			"ext": "./dr2/思古影视.js"
 		},
 		{
 			"key": "非凡",
@@ -238,7 +238,7 @@
 			"name": "腾云",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/腾云驾雾.js"
+			"ext": "./dr2/腾云驾雾.js"
 		},
 
 		{
@@ -246,21 +246,21 @@
 			"name": "优酷",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/优酷.js"
+			"ext": "./dr2/优酷.js"
 		},
 		{
 		   "key": "drpy_js_奇珍异兽",
 		   "name": "奇异",
 		   "type": 3,
 		   "api": "./lib/drpy2.min.js",
-		   "ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/奇珍异兽.js"
+		   "ext": "./dr2/奇珍异兽.js"
 		 },
 		/*{
 			"key": "csp_iqiyi",
 			"name": "奇艺",
 			"type": 3,
 			"api": "csp_Iqiyi",
-			"jar": "https://gitlab.com/huxuanping/hkx/-/raw/main/1021",
+			"jar": "./1021",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
@@ -270,21 +270,21 @@
 			"name": "忙果",
 			"type": 3,
 			"api": "./lib/drpy.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/百忙无果.js"
+			"ext": "./dr2/百忙无果.js"
 		},
 		{
 			"key": "drpy_js_菜狗",
 			"name": "搜狗",
 			"type": 3,
-			"api": "https://gitlab.com/huxuanping/hkx/-/raw/main/lib/drpy2.min.js",
-			"ext": "https://gitlab.com/huxuanping/hkx/-/raw/main/js/菜狗.js"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./dr2/菜狗.js"
 		},
 		{
 			"key": "csp_MGTV",
 			"name": "芒果",
 			"type": 3,
 			"api": "csp_Mgtv",
-			"jar": "https://gitlab.com/huxuanping/hkx/-/raw/main/1021",
+			"jar": "./1021",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
@@ -303,23 +303,16 @@
 			"key": "drpy_js_抓饭体育",
 			"name": "抓饭体育",
 			"type": 3,
-			"api": "https://huxuanping.github.io/js/lib/drpy.min.js",
-			"ext": "https://huxuanping.github.io/js/dr/抓饭体育.js"
+			"api": "./lib/drpy.min.js",
+			"ext": "./dr/抓饭体育.js"
 		},
 		{
 			"key": "csp_xpath_JRKAN直播.js",
 			"name": "JRKAN",
 			"type": 3,
 			//"playerType":2,
-			"api": "https://huxuanping.github.io/js/lib/drpy2.min.js",
-			"ext": "https://huxuanping.github.io/js/dr2/JRKAN直播.js"
-		},
-		{
-			"key": "taopian",
-			"name": "淘片",
-			"type": 0,
-			"api": "https://taopianapi.com/home/cjapi/as/mc10/vod/xml",
-			"playUrl": ""
+			"api": "./lib/drpy2.min.js",
+			"ext": "./dr2/JRKAN直播.js"
 		}
 		/*{
 		      "key": "push_agent",
@@ -329,7 +322,7 @@
 		      "searchable": 1,
 		      "filterable": 1,
 		      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
-		      //"jar":"https://gitlab.com/huxuanping/hkx/-/raw/main/1021"
+		      //"jar":"./1021"
 		     
 		    }*/
 	],
@@ -838,8 +831,6 @@
 		"lekanzyw"
 	],
 
-	"spider": "https://gitlab.com/huxuanping/hkx/-/raw/main/xyq"
-
-	//"spider": "https://gitlab.com/huxuanping/hkx/-/raw/main/1022"
+	"spider": "./xyq"
 
 }
