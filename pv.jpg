@@ -21,7 +21,6 @@
 			"type": 3,
 			"filterable": 1,
 			"quickSearch": 1,
-"jar":"./xyq",
 			"searchable": 1
 		},
 		{
@@ -62,7 +61,6 @@
 			"api": "csp_Kunyu77",
 			"searchable": 1,
 			"quickSearch": 1,
-"jar":"./xyq",
 			"filterable": 1
 		},
 		{
@@ -96,7 +94,6 @@
 			"api": "csp_Kuaikan",
 			"searchable": 1,
 			"quickSearch": 1,
-"jar":"./xyq",
 			"filterable": 1
 
 		},
@@ -290,7 +287,6 @@
 			"jar": "./1021",
 			"searchable": 1,
 			"quickSearch": 1,
-"jar":"./xyq",
 			"filterable": 1
 		},
 		{
@@ -301,7 +297,6 @@
 			"api": "csp_SP360",
 			"type": 3,
 			"key": "360_spider",
-"jar":"./xyq",
 			"searchable": 1
 		},
 		{
@@ -836,6 +831,6 @@
 		"lekanzyw"
 	]
 
-	//"spider": "./xyq"
+	"spider": "./xyq"
 
 }
